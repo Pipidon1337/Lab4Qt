@@ -30,7 +30,7 @@ public:
      * @brief updateTime время в миллисекундах, за которое будет производиться обновление столбиков
      * @brief maxPresentableSize количество столбиков диаграммы, расчитывается исходя из максимального количества и разделителя
      */
-    int maxSize = 5000;
+    int maxSize = 5000000;
     int maxValue = 3000;
     int splitter = 10;
     int updateTime = 1000;
